@@ -1,0 +1,50 @@
+# default.properties
+# properties set here will be available to the test execution as environment variables
+
+# sample_key = sample_value
+
+# The path to the gauge reports directory. Should be either relative to the project directory or an absolute path
+gauge_reports_dir = reports
+
+# Set as false if gauge reports should not be overwritten on each execution. A new time-stamped directory will be created on each execution.
+overwrite_reports = true
+
+# Set to false to disable screenshots on failure in reports.
+screenshot_on_failure = true
+
+# The path to the gauge logs directory. Should be either relative to the project directory or an absolute path
+logs_directory = logs
+
+# Set to true to use multithreading for parallel execution
+enable_multithreading = false
+
+# Possible values for this property are 'suite', 'spec' or 'scenario'.
+# 'scenario' clears the objects after the execution of each scenario, new objects are created for next execution.
+gauge_clear_state_level = scenario
+
+# The path the gauge specifications directory. Takes a comma separated list of specification files/directories.
+gauge_specs_dir = specs
+
+# The default delimiter used read csv files.
+csv_delimiter = ,
+
+#Browser to do the test
+BROWSER = CHROME
+BROWSER_VERSION = 71.0.3578.98
+BUILD = i2iTest
+OS = Windows
+OS_VERSION  = 10
+
+#URL to do the test
+<<<<<<< HEAD
+//testURL = https://dev-us.i2.saiglobal.com/management/
+testURL = https://uat.i2.saiglobal.com/management/
+//testURL = https://10.32.113.107/management/
+=======
+testURL = https://uat.i2.saiglobal.com/management/home/
+//testURL = https://10.32.113.20/management/
+>>>>>>> 70728fae1393f67db428681babc339dbf8e8989a
+
+# The credentials associated with your BrowserStack account.
+BROWSERSTACK_USERNAME = virendrasinghraw1
+BROWSERSTACK_ACCESS_KEY = XNsKoKVumE3LUzyFEF7s

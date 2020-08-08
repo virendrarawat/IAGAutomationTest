@@ -1,0 +1,9 @@
+
+# Gauge
+
+.idea/
+.gauge/
+reports/html-report/
+gauge_bin/
+logs/
+target/
