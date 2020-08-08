@@ -31,20 +31,6 @@ csv_delimiter = ,
 #Browser to do the test
 BROWSER = CHROME
 BROWSER_VERSION = 71.0.3578.98
-BUILD = i2iTest
+BUILD =
 OS = Windows
 OS_VERSION  = 10
-
-#URL to do the test
-<<<<<<< HEAD
-//testURL = https://dev-us.i2.saiglobal.com/management/
-testURL = https://uat.i2.saiglobal.com/management/
-//testURL = https://10.32.113.107/management/
-=======
-testURL = https://uat.i2.saiglobal.com/management/home/
-//testURL = https://10.32.113.20/management/
->>>>>>> 70728fae1393f67db428681babc339dbf8e8989a
-
-# The credentials associated with your BrowserStack account.
-BROWSERSTACK_USERNAME = virendrasinghraw1
-BROWSERSTACK_ACCESS_KEY = XNsKoKVumE3LUzyFEF7s
